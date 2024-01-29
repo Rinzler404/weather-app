@@ -163,6 +163,7 @@ def display_weather_info(weather_data, imperial=False):
 	print(f"{wind}{' miles/hour' if imperial else ' meter/sec'}",
 		end=" ")
 
+# Units for humidity in percentage; units for visibility in meters
 
 if __name__ == "__main__":
 	user_args = read_user_cli_args()
